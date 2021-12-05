@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/fondo"
+    tools:context=".PlayerVsComputer">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.jcaf.adivinquienpokemon.personaje
+            android:id="@+id/personajeE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:transitionGroup="false">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/charRecycleView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/imprimir"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="Respuesta"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/mensaje"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="80"
+                android:background="@drawable/edittext"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="@drawable/my_border">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <com.jcaf.adivinquienpokemon.personaje2
+                        android:id="@+id/car1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <com.jcaf.adivinquienpokemon.personaje2
+                        android:id="@+id/car2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <com.jcaf.adivinquienpokemon.personaje2
+                        android:id="@+id/car3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <com.jcaf.adivinquienpokemon.personaje2
+                        android:id="@+id/car4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <com.jcaf.adivinquienpokemon.personaje2
+                        android:id="@+id/car5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.jcaf.adivinquienpokemon.personaje2
+                        android:id="@+id/car6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <com.jcaf.adivinquienpokemon.personaje2
+                        android:id="@+id/car7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <com.jcaf.adivinquienpokemon.personaje2
+                        android:id="@+id/car8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <com.jcaf.adivinquienpokemon.personaje2
+                        android:id="@+id/car9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <com.jcaf.adivinquienpokemon.personaje2
+                        android:id="@+id/car10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.jcaf.adivinquienpokemon.personaje2
+                        android:id="@+id/car11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <com.jcaf.adivinquienpokemon.personaje2
+                        android:id="@+id/car12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <com.jcaf.adivinquienpokemon.personaje2
+                        android:id="@+id/car13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <com.jcaf.adivinquienpokemon.personaje2
+                        android:id="@+id/car14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <com.jcaf.adivinquienpokemon.personaje2
+                        android:id="@+id/car15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.jcaf.adivinquienpokemon.personaje2
+                        android:id="@+id/car16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <com.jcaf.adivinquienpokemon.personaje2
+                        android:id="@+id/car17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <com.jcaf.adivinquienpokemon.personaje2
+                        android:id="@+id/car18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <com.jcaf.adivinquienpokemon.personaje2
+                        android:id="@+id/car19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <com.jcaf.adivinquienpokemon.personaje2
+                        android:id="@+id/car20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.jcaf.adivinquienpokemon.personaje2
+                        android:id="@+id/car21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <com.jcaf.adivinquienpokemon.personaje2
+                        android:id="@+id/car22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <com.jcaf.adivinquienpokemon.personaje2
+                        android:id="@+id/car23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <com.jcaf.adivinquienpokemon.personaje2
+                        android:id="@+id/car24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <Button
+                android:id="@+id/PreguntaBo"
+                style="buttonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/red"
+                android:text="Enviar Pregunta"
+                android:textColor="#000000"
+                app:strokeColor="@color/black" />
+
+            <Button
+                android:id="@+id/generarPersonaje"
+                style="buttonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/red"
+                android:text="Generar Personaje"
+                android:textColor="#000000"
+                app:strokeColor="@color/black" />
+            <TextView
+                android:id="@+id/textChido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="¿Sabes quien es tu personaje?"
+                android:textAlignment="center"
+                android:layout_marginTop="5dp"
+                android:textSize="24dp"/>
+
+            <EditText
+                android:id="@+id/arriesgar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittext"
+                android:minHeight="48dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+            <Button
+                android:id="@+id/btnArriesgar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Arriesgar"/>
+
+            <TextView
+                android:id="@+id/gameover"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="32sp" />
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/gifWin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pikawin"
+                android:visibility="gone"
+                />
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/gifLose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pikasad"
+                android:visibility="gone"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

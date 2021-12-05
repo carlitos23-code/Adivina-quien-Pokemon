@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/fondo"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/fondo">
+
+
+        <TextView
+            android:id="@+id/lblname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre"
+            android:textAlignment="center"
+            android:textColor="#4CAF50"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toTopOf="@+id/name"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.834"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext"
+            android:layout_margin="20dp"
+            android:layout_marginBottom="64dp"
+            android:minHeight="48dp"
+            app:layout_constraintBottom_toTopOf="@+id/lblusu"
+            tools:ignore="SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="24dp" />
+
+        <TextView
+            android:id="@+id/lblusu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="Email"
+            android:textAlignment="center"
+            android:textColor="#4CAF50"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toTopOf="@+id/usuario"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <EditText
+            android:id="@+id/usuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_marginBottom="56dp"
+            android:minHeight="48dp"
+            app:layout_constraintBottom_toTopOf="@+id/lblpswd"
+            tools:ignore="SpeakableTextPresentCheck"
+            android:background="@drawable/edittext"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <TextView
+            android:id="@+id/lblpswd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Password"
+            android:textAlignment="center"
+            android:textColor="#4CAF50"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toTopOf="@+id/contraseña"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/contraseña"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:layout_marginBottom="36dp"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:background="@drawable/edittext"
+            app:layout_constraintBottom_toTopOf="@+id/RegButton"
+            tools:ignore="SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="25dp" />
+
+        <Button
+            android:id="@+id/RegButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="208dp"
+            android:text="Rgistrarse"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:background="@drawable/botones"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

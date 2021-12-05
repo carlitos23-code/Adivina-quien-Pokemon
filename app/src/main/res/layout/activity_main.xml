@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/fondo">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="144dp"
+        android:textAlignment="center"
+        app:srcCompat="@drawable/logo"
+        android:layout_marginBottom="30dp"/>
+    <Button
+        android:id="@+id/pvc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Player Vs PC"
+        android:textAlignment="center"
+        android:layout_margin="24dp"
+        android:textSize="24dp"/>
+    <Button
+        android:id="@+id/pvp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Player vs Player"
+        android:textAlignment="center"
+        android:layout_margin="24dp"
+        android:textSize="24dp"/>
+    <Button
+        android:id="@+id/records"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Records"
+        android:textAlignment="center"
+        android:layout_margin="24dp"
+        android:textSize="24dp"/>
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifPrincipal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/intro"
+        />
+
+</LinearLayout>

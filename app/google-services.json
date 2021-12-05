@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "143655793437",
+    "project_id": "adivina-quien-94df9",
+    "storage_bucket": "adivina-quien-94df9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143655793437:android:fa72e172d0e5e5b89267f4",
+        "android_client_info": {
+          "package_name": "com.jcaf.adivinquienpokemon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "143655793437-fvpgit511cjoavljhbmbu9e7hr70l15f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNxJnprzCisQog-k8GTXbUFRZZne5OJ9s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "143655793437-fvpgit511cjoavljhbmbu9e7hr70l15f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
